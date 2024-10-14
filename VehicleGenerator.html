@@ -11,7 +11,7 @@
 
   <body>
 	<div class="navbar">
-		<img src="assets/SprocketToolsLogo.png"/>
+		<img src="assets/SprocketToolsLogo.png">
 		<a href="index.html">Home</a>
 		<a href="TopGearCalculator.html">Gear Calculator</a>
 		<a href="ContestsList.html">Contests</a>
@@ -508,7 +508,7 @@
             Tank Idea Generator
         </h1>
         <p>
-        <center>
+          <div class="text-center">
 			<h5 color="white">Click the button to get a random tank idea!</h5>
 			<h5 id="loadtext" color="white">Loading...</h5>
 			<h5 id="description" color="white"> </h5>
@@ -517,7 +517,8 @@
 			<div class="button">
             <button id="convert" type="submit" class="enter" pys-onClick="update">Get my Tank!</button>
 			</div>
-        </center>
+        </div>
+        </p>
         <script>
 			function UpdateBanner() {
 				document.getElementById("loadtext").innerHTML = "Ready!";
@@ -535,6 +536,7 @@
 		<h5 id="additional_note"> </h5>
 		<h5 id="inspiration"> </h5>
 		<h4 id="extra2"> </h4>
+      </p>
     
         
     </div>
