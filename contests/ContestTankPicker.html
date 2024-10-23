@@ -13,24 +13,25 @@
     </style>
   </head>
   <body>
-    <div class="center-text">
-      <h1 class="text-center">
-        Vehicle Selector
-      </h1>
-      <h5 class="text-center" id="loadtext">
-        Loading modules...
-      </h5>
-      <br>
-      <p>
-        <h3>Paste your user ID and contest code here!</h3>
-        <input id="inputbox" type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" placeholder="Enter ID here">
-        <input id="offsetRNG" type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" placeholder="Enter contest code here.">
-      </p>
-      <div class="button">
-        <button id="convert" type="submit" class="enter" pys-onclick="update" onclick="PopupBox()">Get my Tank!</button>
-      </div>
-      <script>
-        function UpdateBanner() {
+    <div class="container">
+      <div class="center-text">
+        <h1 class="text-center">
+          Vehicle Selector
+        </h1>
+        <h5 class="text-center" id="loadtext">
+          Loading modules...
+        </h5>
+        <br>
+        <p>
+          <h3>Paste your user ID and contest code here!</h3>
+          <input id="inputbox" type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" placeholder="Enter ID here">
+          <input id="offsetRNG" type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" placeholder="Enter contest code here.">
+        </p>
+        <div class="button">
+          <button id="convert" type="submit" class="enter" pys-onclick="update" onclick="PopupBox()">Get my Tank!</button>
+        </div>
+        <script>
+          function UpdateBanner() {
 				document.getElementById("loadtext").innerHTML = "Ready!";
 			}
 			setTimeout(UpdateBanner,6000);
@@ -76,29 +77,30 @@
 			function ShowTroll(){
 				document.getElementById('bangus').style.display = "block";
 			}
-      </script>
-      <p>
-        <br>
-        <h1 id="promptname">
-        </h1>
-        <h4 id="weight">
-        </h4>
-        <h4 id="cannon">
-        </h4>
-        <h4 id="engine">
-        </h4>
-        <h4 id="minimum_ammo">
-        </h4>
-        <br>
-        <h5 id="additional_note">
-        </h5>
-        <h5 id="inspiration">
-        </h5>
-        <h4 id="extra2">
-        </h4>
-        <picture>
-          <img src="assets/amongustrollemoji.png" id="bangus" style="display:none; width:40%;" alt="An amogus with a trollface.">
-        </picture>
+        </script>
+        <p>
+          <br>
+          <h1 id="promptname">
+          </h1>
+          <h4 id="weight">
+          </h4>
+          <h4 id="cannon">
+          </h4>
+          <h4 id="engine">
+          </h4>
+          <h4 id="minimum_ammo">
+          </h4>
+          <br>
+          <h5 id="additional_note">
+          </h5>
+          <h5 id="inspiration">
+          </h5>
+          <h4 id="extra2">
+          </h4>
+          <picture>
+            <img src="assets/amongustrollemoji.png" id="bangus" style="display:none; width:40%;" alt="An amogus with a trollface.">
+          </picture>
+        </p>
       </div>
     </div>
   </body>
