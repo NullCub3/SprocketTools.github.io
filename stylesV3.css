@@ -17,18 +17,18 @@
   --shade1: rgba(100, 100, 110, 0.15);
   --shade2: rgba(100, 100, 110, 0.3);
   --shade3: rgba(100, 100, 110, 0.4);
-  --backgroundgradient: linear-gradient(to left, #090909, #111111, #090909);
+  --backgroundgradient: linear-gradient(0.25turn, #090909, #111111, #090909);
 }
 
 body {
   font-family: Arial;
   background: var(--backgroundgradient);
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat;  */
   min-height: 150px;
   margin: 0;
   text-align: center;
-  /* display:inline-block;
-	flex-direction:column; */
+  /* display:inline-block; */
+  /* flex-direction:column; */
 }
 
 a {
