@@ -3,7 +3,7 @@
 body {
   font-family: Arial;
   background: linear-gradient(to left, #090909, #111111, #090909);
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   min-height: 150px;
   margin: 0;
   display: flex;
