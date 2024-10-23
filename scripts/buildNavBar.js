@@ -1,7 +1,7 @@
 export const globalPages = {
   Home: "/index.html",
   Gear_Calculator: "/TopGearCalculator.html",
-  Contests: "/ContestsList.html",
+  Contests: "/contests/index.html",
   Random_Tank_Picker: "/VehicleGenerator.html",
   Guides: "/resources.html",
   Credits: "/credits.html",
