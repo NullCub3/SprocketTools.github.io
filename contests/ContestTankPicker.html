@@ -3,37 +3,17 @@
   <head>
     <title>Contest Tank Picker</title>
     <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
-    <link rel="stylesheet" href="https://use.typekit.net/oov2wcw.css">
-    <link rel="icon" type="image/x-icon" href="assets/SprocketToolsLogo.png">
-    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="/stylesheet.css">
+    <script type="module" src="./contest-navbar.js"></script>
+    <script type="module" src="/navbar.js"></script>
     <style>
       h3 {text-align: center;}
       .container { text-align: center; }
+      div {text-align: center; }
     </style>
   </head>
   <body>
-    <div class="navbar">
-      <img src="assets/SprocketToolsLogo.png">
-      <a href="index.html">Home</a>
-      <a href="TopGearCalculator.html">Gear Calculator</a>
-      <a class="active" href="ContestTankPicker.html">Contests</a>
-      <a href="VehicleGenerator.html">Random Tank Picker</a>
-      <a href="resources.html">Guides</a>
-      <a href="credits.html">Credits</a>
-      <a href="https://www.youtube.com/watch?v=p7YXXieghto">Get Trolled</a>
-      <a href="Decals/DecalsFeatured.html">Decal Catalog</a>
-      <a href="Decals/DecalsRGBmaker.html">RGB Decal Maker</a>
-    </div>
-    <py-script src="./py-scripts/ContestTankPicker.py"></py-script>
-    <div class="container">
-      <div>
-        <ul class="decal-menu">
-          <li onclick="document.location='ContestsList.html'">Active Contests</li>
-          <li onclick="document.location='CodeOfConduct.html'">Code of Conduct</li>
-          <li class="active" onclick="document.location='ContestTankPicker.html'">Contest Tank Picker</li>
-        </ul>
-      </div>
-      <br>
+    <div class="center-text">
       <h1 class="text-center">
         Vehicle Selector
       </h1>
@@ -119,7 +99,7 @@
         <picture>
           <img src="assets/amongustrollemoji.png" id="bangus" style="display:none; width:40%;" alt="An amogus with a trollface.">
         </picture>
-      </p>
+      </div>
     </div>
   </body>
   <script>
