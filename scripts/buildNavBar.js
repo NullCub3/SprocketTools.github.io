@@ -6,8 +6,8 @@ export const globalPages = {
   Guides: "/resources.html",
   Credits: "/credits.html",
   Get_Trolled: "https://www.youtube.com/watch?v=p7YXXieghto",
-  Decal_Catalog: "/Decals/DecalsFeatured.html",
-  RGB_Decal_Maker: "/Decals/DecalsRGBmaker.html",
+  Decal_Catalog: "/Decals/index.html",
+  RGB_Decal_Maker: "/Decals/RGBmaker.html",
 };
 
 /**
