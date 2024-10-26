@@ -11,11 +11,6 @@ window.addEventListener(
   "load",
   navbar.makePage(
     document,
-    navbar.buildNav(
-      contestPages,
-      pageTitle,
-      "navbar container center-text decal-menu",
-      false,
-    ),
+    navbar.buildNav(contestPages, pageTitle, "center navbar", false),
   ),
 );
