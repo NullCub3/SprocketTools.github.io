@@ -10,11 +10,13 @@ export const globalPages = {
   RGB_Decal_Maker: "/Decals/DecalsRGBmaker.html",
 };
 
-export function buildNav(pl, pt = "", c = "navbar") {
-  let list = `
-    <div class="${c}">
-    <img src="/assets/SprocketToolsLogo.png">
-`;
+export function buildNav(pl, pt = "", c = "navbar", img = true) {
+  let list = `<div class="${c}">\n`;
+
+  if (img) {
+    list += '<img src="/assets/SprocketToolsLogo.png">\n';
+  }
+
   for (let p in pl) {
     let pname = p.replace(/_/g, " ");
     let url = pl[`${p}`];

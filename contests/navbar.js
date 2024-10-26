@@ -15,6 +15,7 @@ window.addEventListener(
       contestPages,
       pageTitle,
       "navbar container center-text decal-menu",
+      false,
     ),
   ),
 );
