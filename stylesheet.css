@@ -545,6 +545,7 @@ input[type=reset] {
 
 .color_box {
   width: 210px;
+  margin: auto;
   height: 180px;
   border-radius: 15px;
   padding: 15px;

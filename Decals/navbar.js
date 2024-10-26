@@ -1,7 +1,7 @@
 import * as navbar from "/scripts/buildNavBar.js";
 const pageTitle = document.title;
 
-const contestPages = {
+const decalPages = {
   Featured: "/Decals/index.html",
   Chalk: "/Decals/Chalk.html",
   Fictional_Insignia: "/Decals/Fictional Insignia.html",
@@ -26,7 +26,7 @@ window.addEventListener(
   navbar.makePage(
     document,
     navbar.buildNav(
-      contestPages,
+      decalPages,
       pageTitle,
       "container center navbar",
       '<h1 class="text-center">Decal Catalog</h1>\n',
