@@ -8,7 +8,12 @@ window.addEventListener(
   "load",
   navbar.makePage(
     document,
-    navbar.buildNav(navbar.globalPages, pageTitle),
+    navbar.buildNav(
+      navbar.globalPages,
+      pageTitle,
+      "navbar",
+      '<img src="/assets/SprocketToolsLogo.png">\n',
+    ),
     style,
   ),
 );
