@@ -4,7 +4,6 @@ const pageTitle = document.title;
 const contestPages = {
   Featured: "/Decals/index.html",
   Chalk: "/Decals/Chalk.html",
-  Contribute_your_own: "/Decals/Contribute.html",
   Fictional_Insignia: "/Decals/Fictional Insignia.html",
   Historical_Insignia: "/Decals/Historical Insignia.html",
   Inscriptions: "/Decals/Inscriptions.html",
@@ -19,6 +18,7 @@ const contestPages = {
   Textures: "/Decals/Textures.html",
   Weathering: "/Decals/Weathering.html",
   Welding: "/Decals/Welding.html",
+  Contribute_your_own: "/Decals/Contribute.html",
 };
 
 window.addEventListener(
